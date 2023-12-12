@@ -1,0 +1,39 @@
+! name: EU Websites
+! description: Boost European Union websites in search queries.
+! public: false
+! author: Jacob
+! avatar: #2069E8
+
+*at*$boost=3,site=.at
+*be*$boost=3,site=.be
+*bg*$boost=3,site=.bg
+*hr*$boost=3,site=.hr
+*cy*$boost=3,site=.cy
+*cz*$boost=3,site=.cz
+*dk*$boost=3,site=.dk
+*ee*$boost=3,site=.ee
+*fi*$boost=3,site=.fi
+*fr*$boost=3,site=.fr
+*de*$boost=3,site=.de
+*gr*$boost=3,site=.gr
+*hu*$boost=3,site=.hu
+*ie*$boost=3,site=.ie
+*it*$boost=3,site=.it
+*lv*$boost=3,site=.lv
+*lt*$boost=3,site=.lt
+*lu*$boost=3,site=.lu
+*mt*$boost=3,site=.mt
+*nl*$boost=3,site=.nl
+*pl*$boost=3,site=.pl
+*pt*$boost=3,site=.pt
+*ro*$boost=3,site=.ro
+*sk*$boost=3,site=.sk
+*si*$boost=3,site=.si
+*es*$boost=3,site=.es
+*se*$boost=3,site=.se
+
+! Specific boosts for popular European domains
+# Add specific domain boosts here if needed
+
+! Exclusion rules
+$discard,site=gov
