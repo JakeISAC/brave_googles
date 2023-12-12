@@ -1,0 +1,50 @@
+! name: EU Websites
+! description: Boost European Union websites in search queries. As fallback google will boost websites from Canada, USA, Singapore, Australia, UK, Norway. All other websites will be downranked. 
+! public: false
+! author: Jacob
+! avatar: #2069E8
+
+! European Union Countries
+$boost=4,site=.eu
+$boost=4,site=.at
+$boost=4,site=.be
+$boost=4,site=.bg
+$boost=4,site=.hr
+$boost=4,site=.cy
+$boost=4,site=.cz
+$boost=4,site=.dk
+$boost=4,site=.ee
+$boost=4,site=.fi
+$boost=4,site=.fr
+$boost=4,site=.de
+$boost=4,site=.gr
+$boost=4,site=.hu
+$boost=4,site=.ie
+$boost=4,site=.it
+$boost=4,site=.lv
+$boost=4,site=.lt
+$boost=4,site=.lu
+$boost=4,site=.mt
+$boost=4,site=.nl
+$boost=4,site=.pl
+$boost=4,site=.pt
+$boost=4,site=.ro
+$boost=4,site=.sk
+$boost=4,site=.si
+$boost=4,site=.es
+$boost=4,site=.se
+/*eu/$boost=4
+/europ*/$boost=4
+
+! Boosting for international websites. 
+$boost=3,site=.com
+
+! Specific boosts for popular European domains
+$boost=2,site=euronews.com
+$boost=2,site=esa.int
+
+! Fallback countries
+$boost=1,site=.ca
+$boost=1,site=.no 
+$boost=1,site=.uk
+$boost=1,site=.sg 
