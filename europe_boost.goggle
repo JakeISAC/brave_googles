@@ -36,12 +36,12 @@ $boost=4,site=.se
 /*eu/$boost=4
 /europ*/$boost=4
 
-! Boosting for international websites. 
-$boost=3,site=.com
-
 ! Specific boosts for popular European domains
-$boost=2,site=euronews.com
-$boost=2,site=esa.int
+$boost=3,site=euronews.com
+$boost=3,site=esa.int
+
+! Boosting for international websites. 
+$boost=2,site=.com
 
 ! Fallback countries
 $boost=1,site=.ca
