@@ -1,0 +1,22 @@
+! name: Matematyka
+! description: Boost polish math websites when searching for mathematical questions. (queries must be in polish)
+! public: false
+! author: Jacob
+! avatar: #2069E8
+
+! Generic boosting
+*matematyka*$boost,site=pl
+*matma*$boost,site=pl
+/matematyka/$boost,site=pl
+
+! Boost some results
+$boost=3,site=matemaks.pl
+$boost=3,site=zadania.info
+$boost=2,site=www.naukowiec.org
+$boost=2,site=matematykadlastudenta.pl
+$boost=2,site=wyznacznik.pl
+
+
+
+! Exclusion rules
+$discard,site=gov
